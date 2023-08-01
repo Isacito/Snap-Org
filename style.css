@@ -1,0 +1,46 @@
+/* Inicio de estilos */
+*{
+    font-family: "Epilogue", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    width: 100%;
+}
+img{
+    max-width: 100%;
+}
+
+/* Button */
+.btn-register,
+.btn-transparen{
+    padding: 1rem 2rem;
+    border-radius: 15px;
+    color: darkgray;
+    cursor: pointer;
+    background-color: transparent;
+}
+.btn-transparen{
+    border: none;
+}
+.btn-transparen:hover{
+    color: black;
+    font-weight: 700;
+}
+.btn-register{
+    border: 1px solid black;
+}
+.btn-register:hover{
+    color: black;
+    font-weight: 700;
+}
+.one-btn{
+    background-color: black;
+    width: fit-content;
+    padding: 1rem 2rem;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
