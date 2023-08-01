@@ -29,3 +29,26 @@ btnFeature.addEventListener('click', (e) => {
         }
     }
 });
+
+// MOBILE
+let btnMenu = document.querySelector('.mobile-menu-btn img');
+let ckbtn = 0;
+
+hamMenu.addEventListener('click', () => {
+    
+    if(ckbtn == 0) {
+        btnMenu.src = "./images/icon-close-menu.svg";
+        let navMenu = document.querySelector('menu')
+        navMenu.classList.add('active');
+        navMenu.nextElementSibling.style.display = 'inline-block';
+
+        ckbtn++
+    } else {
+        btnMenuenu.src = "./images/icon-menu.svg";
+        let navMenu = document.querySelector('menu')
+        navMenu.classList.remove('active');
+        navMenu.nextElementSibling.style.display = 'none';
+
+        ckHam--
+    }
+});
